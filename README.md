@@ -9,8 +9,9 @@ Companion to the [JavaScript](https://github.com/gusaiani/leetcode-js), [Rust](h
 
 ## Solved Problems
 
-| #   | Problem | Difficulty | Approach | Time | Space |
-| --- | ------- | ---------- | -------- | ---- | ----- |
+| #    | Problem | Difficulty | Approach | Time | Space |
+| ---  | ------- | ---------- | -------- | ---- | ----- |
+| 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | Easy | Arithmetic | O(1) | O(1) |
 
 ## Project structure
 
