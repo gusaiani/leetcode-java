@@ -1,0 +1,33 @@
+name: Lint
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - "*"
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  lint:
+    name: Run Lint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: "21"
+          distribution: "temurin"
+          cache: "maven"
+
+      - name: Check formatting
+        run: mvn --batch-mode spotless:check
+
+      - name: Compile (warnings as errors)
+        run: mvn --batch-mode compile
