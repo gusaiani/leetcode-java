@@ -11,7 +11,10 @@ Companion to the [JavaScript](https://github.com/gusaiani/leetcode-js), [Rust](h
 
 | #    | Problem | Difficulty | Approach | Time | Space |
 | ---  | ------- | ---------- | -------- | ---- | ----- |
+| 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | Easy | String replace | O(n) | O(n) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | Easy | Arithmetic | O(1) | O(1) |
+| 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | Easy | Conditional | O(1) | O(1) |
+| 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | Easy | Arithmetic | O(1) | O(1) |
 
 ## Project structure
 
